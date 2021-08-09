@@ -7,18 +7,18 @@
         <form action="{{  url_for('predict')}}" method="post">
             <div>
                 <label>Weight</label>
-                <input>
+                <input type="text" name="Weight" required="required">
             </div>
             <div>
                 <label>Age</label>
-                <input>
+                <input type="text" name="Age" required="required">
             </div>
             <div>
                 <label>Height</label>
-                <input>
+                <input type="text" name="Height" required="required">
             </div>
             <div>
-                <button type="submit"> Submit</button>
+                <button type="submit"> Predict</button>
             </div>
         </form>
         <br>
